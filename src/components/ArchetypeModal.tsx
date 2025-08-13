@@ -151,6 +151,35 @@ export const ArchetypeModal = ({ archetype, isOpen, onClose }: ArchetypeModalPro
                 </div>
               </div>
 
+              {/* Guardian Role */}
+              {/* <div className="space-y-3 bg-muted/10 p-4 rounded-lg">
+                <div>
+                  <strong className="text-foreground">Guardian Role:</strong>
+                  <span className="ml-2 text-muted-foreground">{archetype.guardianRole}</span>
+                </div>
+                <div>
+                  <strong className="text-foreground">Light Activation Phrase:</strong>
+                  <span className="ml-2 text-muted-foreground italic">"{archetype.lightActivationPhrase}"</span>
+                </div>
+                <div>
+                  <strong className="text-foreground">Shadow Phrase:</strong>
+                  <span className="ml-2 text-muted-foreground italic">"{archetype.shadowPhrase}"</span>
+                </div>
+                <div>
+                  <strong className="text-foreground">Element:</strong>
+                  <span className="ml-2 text-muted-foreground">{archetype.element}</span>
+                </div>
+                <div>
+                  <strong className="text-foreground">Season:</strong>
+                  <span className="ml-2 text-muted-foreground">{archetype.season}</span>
+                </div>
+                <div>
+                  <strong className="text-foreground">Resonance Keywords:</strong>
+                  <span className="ml-2 text-muted-foreground">{archetype.resonanceKeywords.join(", ")}</span>
+                </div>
+              </div> */}
+
+
               {/* Emoji Sigils */}
               <div className="space-y-3">
                 <h2 className="text-xl font-semibold text-foreground flex items-center gap-2">
